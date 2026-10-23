@@ -1,0 +1,19 @@
+name: lossless
+description: LOSSLESS - audiophile local music player by TanimSarker.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.13
+  file_picker: ^8.1.2
+  path: ^1.9.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
